@@ -1,0 +1,40 @@
+.UserDataContainer {
+    height: 115px;
+    border-bottom: 1px solid #D0C3FB;
+    display: flex;
+    align-items: center;
+}
+
+.UserImageContainer {
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserImageBorder {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: 1px solid #AD97FD;
+}
+
+.AdjustedImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.UserName,
+.UserProfession {
+    color: #AD97FD;
+}
+
+.UserName {
+    font-size: 23px;
+}
+
+.UserProfession {
+    padding-top: 10px;
+    font-size: 22px;
+}

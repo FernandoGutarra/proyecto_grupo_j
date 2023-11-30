@@ -1,0 +1,38 @@
+.TaskListContainer {
+    height: 485px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.TaskList {
+    height: 90%;
+}
+
+.Tasklist {
+    height: 370px;
+}
+
+.buttomsContainer {
+    border-top: 1px solid #AD97FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+}
+
+.buttomsContainer button {
+    background-color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttomsContainer button img {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,97 @@
+.TaskItemContainer {
+  display: flex;
+  height: 110px;
+  align-items: center;
+}
+
+.TaskDate {
+  display: flex;
+  padding-left: 10px;
+  width: 70%;
+}
+
+.TaskHour {
+  display: flex;
+  padding-left: 50px;
+  color: #AD97FD;
+  font-size: 20px;
+}
+
+.TaskText {
+  display: flex;
+  padding-left: 50px;
+  width: 65%;
+  color: #AD97FD;
+  font-size: 20px;
+}
+
+.CheckboxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+span {
+  display: inline-block;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #AD97FD;
+}
+
+span::after {
+  content: "";
+  position: absolute;
+  border: solid #AD97FD;
+  border-width: 0 0.30em 0.30em 0;
+  transform: rotate(45deg);
+  width: 0.50em;
+  height: 1em;
+  left: 9px;
+  top: 3px;
+  opacity: 0;
+  transition: .3s ease;
+}
+
+label input:checked~span:after {
+  opacity: 1;
+}
+
+.CheckboxContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.complete {
+  display: flex;
+  padding-left: 50px;
+  color: #D0C3FB;
+}
+
+.completeText {
+  text-decoration: line-through;
+}
+
+.buttonDeleteTask {
+  background-color: #ffffff;
+  border: none;
+}
+
+.buttonDeleteTask img {
+  width: 30px;
+  padding-left: 40px;
+  cursor: pointer;
+}
